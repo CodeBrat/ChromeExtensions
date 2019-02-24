@@ -1,0 +1,19 @@
+{
+    "name": "Start-a-Tab",
+    "description": "Let's manage your tab",
+    "version": "1.0",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "sat.html",
+        "default_icon": "start-a-tab.png"
+    },
+    "commands": {
+        "_execute_browser_action": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+F",
+                "mac": "MacCtrl+Shift+F"
+            },
+            "description": "Loads sat.html"
+        }
+    }
+}
